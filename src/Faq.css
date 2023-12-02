@@ -1,0 +1,42 @@
+.faqtop{
+    padding-top: 10vh;
+    display:flex;
+    justify-content: space-around;
+}
+.faql{
+    /* padding-left: 10vw; */
+    width:40vw;
+}
+.faq22{
+    text-align: left !important;
+}
+.faq23{
+    width:30vw !important;
+}
+.css-17mg6aq {
+    background-color: rgb(252, 238, 252);
+    border-radius: 20px !important;
+}
+.acctop{
+    font-size: 4vh;
+    font-weight: 700;
+    border-radius: 20px !important;
+}
+.faqr{
+    width:40vw;
+}
+@media(max-width: 768px){
+    .faqtop{
+        flex-direction: column;
+        align-items: center;
+    }
+    .faql{
+        width:80vw !important;
+    }
+    .faqr{
+        width:80vw !important;
+    }
+    .faq23{
+        width:80vw !important;
+    }
+}

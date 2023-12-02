@@ -1,0 +1,19 @@
+.pricingtop{
+    display:flex;
+    justify-content: space-around;
+}
+.bord{
+    border-color: black;
+    border-width: 1px;
+}
+@media(max-width: 768px){
+    .pricingtop{
+        max-width: 80vw;
+        width: 60vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bord{
+        width: 60vw !important;
+    }
+}

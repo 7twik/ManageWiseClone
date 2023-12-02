@@ -1,0 +1,23 @@
+.NavLogo{
+    width:200px;
+}
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    background-color:rgb(255, 239, 227) !important;
+}
+.css-n1aaeq{
+    background-color: rgb(255, 239, 227) !important;
+}
+@media(max-width: 768px){
+    .NavLogo {
+        height: 8vh;
+        width: auto;
+    }
+    .css-dnzegm{
+        display: flex !important;
+        flex-direction:row-reverse !important;
+        gap:5vw;    
+    }
+    
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.bottop{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    background: black !important;
+}
+.bot2{
+    
+    color:rgb(231, 231, 231);
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 600;
+}
+.bot9{
+    width:60vw;
+    color:rgb(231, 231, 231);
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 600;
+}
+.bot42{
+    font-size:2vw;
+    color:rgb(231, 231, 231);
+    font-weight: 700;
+}
+.bot41{
+    background-color: rgb(104 103 103 / 52%) !important;
+}
+.gap{
+    min-height: 20vh;
+}
+.bot3{
+    text-align: center;
+    padding-left: 10vw;
+    width:40vw !important;
+    font-size: 1.4vw;
+    color:rgb(173, 177, 177);
+    font-weight: 600;
+    padding: 5vh 0;
+}
+@media(min-width: 768px){
+    .botimg{
+        width:60vw;
+    }
+}
+@media(max-width: 768px){
+    .bot9{
+        width:80vw;
+    }
+    .bottop{
+        padding-left: 3vw;
+    }
+    .bot2{
+        font-size: 11vw;
+    }
+    .bot42{
+        font-size: 7vw;
+    }
+    .bot3{
+        width:80vw !important;
+        font-size: 6vw;
+    }
+    .gap{
+        min-height: 10vh;
+    }
+}
