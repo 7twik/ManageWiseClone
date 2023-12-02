@@ -8,6 +8,12 @@
     padding-top: 10vh;
     background: linear-gradient(180deg, rgb(255, 239, 227) 0%, rgba(255,255,255,0) 100%);
 }
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9800ff !important;
+    background-color: #9800ff !important;
+}
+
 .textbox{
     background-color: #f1f1f1;
     text-align: center;
@@ -68,6 +74,7 @@
     --bs-btn-bg: #f8f9fa;
     --bs-btn-border-color: #000000;
     --bs-btn-hover-color: #000;
+    background-color: #f8f9fa !important;
 }
 @media(max-width:750px){
     

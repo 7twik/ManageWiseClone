@@ -13,6 +13,8 @@
     font-weight: 600;
 }
 .mid3{
+    padding-left: 5vw;
+    padding-right: 5vw;
     display:flex;
     justify-content: space-between;
     gap: 5vw;
